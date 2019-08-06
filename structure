@@ -1,0 +1,81 @@
+<! DOCTYPE HTML>
+<HTML>
+     <head>
+	   <title>Run Program</title>
+	   <style>
+	   html{
+	     background-image:url("Image/41.jpg") ;
+		 background-repeat: no-repeat;
+		 background-position: center;
+		 background-size: cover;
+		 
+		 
+	   }
+		.Wrapper{
+		   display: grid;
+		   /*
+		   grid-template-columns: 1fr 2fr 1fr ;*/
+		   padding: 1em;
+		   grid-template-columns: repeat(4, 1fr);
+		   
+		}
+		.wrapper div{
+		  
+		  background-color: #ecfcff;
+		  padding: 1em;	
+		  border-radius: 2em;
+		  
+		  
+		}
+		.wrapper > div:nth-child(odd){
+		  background-color:#ffb997;
+		  padding: 1em;
+		  border-radius: 2em;
+		  background-image: linear-gradient( #a1dd70,#ad1d45,#cba1d2)
+		
+		}
+	   </style>
+	 </head>
+	 
+	 <body>
+		<div class="Wrapper">
+			<div>
+			<h1>The first</h1>
+			  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse interdum consectetur libero id. 
+			  Cursus sit amet dictum sit. Quisque egestas diam in arcu cursus euismod. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Donec et odio pellentesque diam volutpat commodo. 
+			  Tortor consequat id porta nibh venenatis cras sed felis. Orci ac auctor augue mauris. Vestibulum mattis ullamcorper velit sed ullamcorper morbi.
+			  Nunc vel risus commodo viverra maecenas accumsan lacus vel. Sed id semper risus in hendrerit gravida. 
+			  Natoque penatibus et magnis dis parturient montes. Quis vel eros donec ac odio tempor orci dapibus ultrices. Feugiat in fermentum posuere urna.
+			</div>
+			
+			<div>
+			<h2>The Second</h2>
+				Dolor sit amet consectetur adipiscing elit. Viverra aliquet eget sit amet tellus cras adipiscing enim eu. Nullam vehicula ipsum a arcu cursus vitae congue mauris. 
+				Fermentum posuere urna nec tincidunt. Ultrices mi tempus imperdiet nulla malesuada. Diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus. 
+				Pulvinar pellentesque habitant morbi tristique senectus et netus et. Tellus elementum sagittis vitae et leo. 
+				Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Mollis nunc sed id semper risus in hendrerit gravida rutrum. 
+				Vel facilisis volutpat est velit egestas dui id ornare arcu. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. 
+				Id volutpat lacus laoreet non curabitur gravida arcu ac tortor. Egestas diam in arcu cursus euismod quis viverra nibh cras.
+			</div>
+			
+			<div>
+			<h3>The Third</h3>
+			  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse interdum consectetur libero id. 
+			  Cursus sit amet dictum sit. Quisque egestas diam in arcu cursus euismod. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Donec et odio pellentesque diam volutpat commodo. 
+			  Tortor consequat id porta nibh venenatis cras sed felis. Orci ac auctor augue mauris. Vestibulum mattis ullamcorper velit sed ullamcorper morbi.
+			  Nunc vel risus commodo viverra maecenas accumsan lacus vel. Sed id semper risus in hendrerit gravida. 
+			  Natoque penatibus et magnis dis parturient montes. Quis vel eros donec ac odio tempor orci dapibus ultrices. Feugiat in fermentum posuere urna.
+			</div>
+			
+			<div>
+			<h4>The Fourth</h4>
+			  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse interdum consectetur libero id. 
+			  Cursus sit amet dictum sit. Quisque egestas diam in arcu cursus euismod. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Donec et odio pellentesque diam volutpat commodo. 
+			  Tortor consequat id porta nibh venenatis cras sed felis. Orci ac auctor augue mauris. Vestibulum mattis ullamcorper velit sed ullamcorper morbi.
+			  Nunc vel risus commodo viverra maecenas accumsan lacus vel. Sed id semper risus in hendrerit gravida. 
+			  Natoque penatibus et magnis dis parturient montes. Quis vel eros donec ac odio tempor orci dapibus ultrices. Feugiat in fermentum posuere urna.
+			</div>
+		</div>
+	 </body>
+
+</HTML>
